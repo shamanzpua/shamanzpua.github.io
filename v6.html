@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>V6</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- fonts name site -->
+<link href="https://fonts.googleapis.com/css?family=Courgette|Marmelad|Montez|Nunito|Satisfy|Yesteryear" rel="stylesheet">
+
+<!---->
+<link rel="stylesheet" type="text/css" href="css/v6.css" />
+
+<!--Scroll-->
+<link  type = "text/css"  href = "plagins/scroll-bar/OverlayScrollbars.css"  rel = "stylesheet " />
+
+ <link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/ui-lightness/jquery-ui.css">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+
+<!--************* Structura *****************-->
+<!--Structura-->
+<div class="container-fluid main_container ">
+	<div class="row no-gutters row_header ">
+	   <div class="col-sm-6 ">
+	          <h1 class='name_site'>
+                    <span class='u_orange'>C</span><span class='u_red'>o</span><span class='u_violet'>c</span><span class='u_orange'>kat</span><span class='u_red'>oo</span> 
+                    <span class='u_green'>Pla</span><span class='u_violet'>c</span><span class='u_orange'>e</span></h1>
+              <h2 class='u_torg margin_top '>Торговая площадка</h2>
+	   </div>
+	   <div class="col-sm-6 ">
+	      <div class='row no-gutters '>
+	   	               <div class='col-sm-12 col_container_panel '>  
+                                <div class='row no-gutters  row_panel'>
+                                 <div class='col-sm-2  '>
+                                           <div class='add'>Добавить объявление</div>
+	                               </div>
+
+	                                <div class='col-sm-2 col_map_icon '>
+	                                   <div class='map_icon'>
+	                                     <img src="img/map2.png" class="img-fluid " width='65%'  alt="..." >
+	                                    </div> 
+	                               </div>
+
+	                                <div class='col-sm-2 col_region '>
+	                                <div class='icon_location'>
+                                   <img src="img/location_gray.png" class="img-fluid " width='100%'  alt="..." />
+                                   </div>
+	                                 <div class='region'>	Украина     Запорожье                                                  
+	                                  </div> 
+	                                </div>
+
+	                                <div class='col-sm-1  '> 
+	                                   <div class='user'>
+	                                     <img src="img/14.png" class=" img-fluid  " width='60%'   alt="..." >
+	                                   </div>	                                   
+	                                </div>
+
+	                                <div class='col-sm-1  '>
+	                                   <div class='zoom'>
+	                                     <img src="img/zoom.png" class=" img-fluid  " width='60%'   alt="..." >
+	                                   </div>
+	                                </div>
+
+	                               <div class='col-sm-1  '>
+	                                   <div class='top-10'><h1>Top-10</h1></div>
+	                               </div>
+
+	                                <div class='col-sm-1  '>
+	                                  <div class='test_fon'>
+	                                   <div class='bg_file_name'><p>ФОН</p></div>
+			                                 <img src='img/yellow_right.png' class='batt_bg forward '  width='15px'/>
+			                                  <img src='img/yellow_left.png' class='batt_bg back ' width='15px' /> 
+	                                  </div>	                                  
+	                                </div>
+
+	                                 <div class='col-sm-1 '>
+	                                  <div class='test_menu'>
+	                                   <div class='menu_panel'><p>МЕНЮ</p></div>
+			                                  <img src='img/yellow_right.png' class='batt_menu forward '  width='15px'/>
+			                                  <img src='img/yellow_left.png' class='batt_menu back ' width='15px' /> 
+	                                  </div>
+	                                </div>
+
+
+	                              <div class='col-sm-1  col_empty'> 
+	                                    <div class='empty'></div>
+	                                </div>
+
+	                               </div>
+	                   </div><!--col-sm-12 col_container_panel-->
+        </div><!--row-->	   				
+	   </div><!--col-sm-6 -->
+     </div><!--row  row_header-->
+	 
+
+
+
+
+
+  <div class="row no-gutters row_center ">
+              
+              <div class='col-sm-6 col_center_left '>
+
+          <!--row-->     <div class='row no-gutters '>
+
+                          <div class='col-sm-11 col_container_bread '> 
+                               <div class='row no-gutters '>
+
+                                <div class="col-sm-6 col_name_razdel">
+														      <h3 id="sale" class="bread_name_razdel">Продам</h3>
+														      <h3 id="deti" class="bread_name_razdel">Детский мир</h3>
+														    </div>
+
+														    <div class="col-sm-5 col_bread_panel">
+														       <div class='row no-gutters '> 
+
+                                           <div class="col-sm-2 col_bread_level_0 ">
+                                           <img src="img/icon_dom3.png" class=" img-fluid   im_level_0 " width='70%'  alt="..." >
+                                           <a class='link_title' href='#'> <h1 class="u_title">Главная</h1></a>  
+                                           </div>                                           
+
+                                           <div class="col-sm-2 col_bread_ar_1 ">
+                                          <img src="img/ar3.png" class=" img-fluid   im_ar1" width='30%'  alt="..." >
+                                           </div>
+
+                                            <div class="col-sm-2 col_bread_level_1 ">
+                                           <img src="img/27.png" class="img-fluid  level_1 " width='75%' alt="..." >
+                                            <a class='link_title' href='#'> <h1 class="u_title">Продам</h1></a>    
+                                           </div>
+
+                                            <div class="col-sm-2 col_bread_ar_2 ">
+                                          <img src="img/ar3.png" class=" img-fluid   im_ar2" width='30%'  alt="..." >
+                                           </div>
+
+                                           <div class="col-sm-4 col_bread_level_2 ">
+                                            <img src="img/iconki/img/171.png" class="img-fluid  level_2 " width='36%' alt="..." >  
+                                           <a class='link_title' href='#'> <h1 class="u_title">Детский мир</h1></a>
+                                           </div>
+
+
+							                      </div>
+														    </div><!--col-sm-5-->
+
+
+				                          </div><!--row-->                             
+														    </div> <!--col-sm-11-->
+                            </div><!--row--> 
+
+
+    <!-- col_container_menu --> 
+                         <div class='row no-gutters '>                         
+                          <div class='col-sm-11 col_container_menu '>
+
+                          <div class='row no-gutters '>  
+                              <div class='col-sm-12 '> 
+
+		                          <div class='row no-gutters'>
+
+						              	 	   <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub '>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/30.png'  /> 
+			                                    <h1 class='text-sub'>Недвижимость</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>              	 	  
+
+						              	 	    <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/31.png'  /> 
+			                                    <h1 class='text-sub'>Транспорт</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+						                      <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/34.png'  /> 
+			                                    <h1 class='text-sub'> <h1 class='text-sub'>Электроника<br />Оборудование</h1></h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+						              	 	    <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/171.png'  /> 
+			                                    <h1 class='text-sub'>Детский мир</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>  
+
+	                                 
+              	   		        </div><!--row-->
+
+              	              <div class='row no-gutters'>
+
+				              	 	    <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/42.png'  /> 
+			                                    <h1 class='text-sub'>Одежда Обувь<br />Аксессуары</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+				              	 	     <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/172.png'  /> 
+			                                    <h1 class='text-sub'>Все для дома</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+				              	 	    <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/173.png'  /> 
+			                                    <h1 class='text-sub'>Красота <br />Здоровье</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+				              	 	    <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/101.png'  /> 
+			                                    <h1 class='text-sub'>Сад<br />Огород</h1>
+			                                 </div>
+			                                </div>                    
+						              	 </div>
+                             
+                             </div>
+
+              	 	          <div class='row no-gutters'>
+              	 	             <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/63.png'  /> 
+			                                    <h1 class='text-sub'>Хобби</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+					              	 	   <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/86.png'  /> 
+			                                    <h1 class='text-sub'>Спорт<br />Отдых</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+					              	 	   <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/40.png'  /> 
+			                                    <h1 class='text-sub'>Продукты <br />питания</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+					              	 	   <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/83.png'  /> 
+			                                    <h1 class='text-sub'>Животные</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	</div> 
+						              	 	  
+						              	 	  </div><!-- row -->    	 	   
+              	  					
+              	  					 <div class='row no-gutters'>
+              	 	             <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/63.png'  /> 
+			                                    <h1 class='text-sub'>Хобби</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+					              	 	   <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/86.png'  /> 
+			                                    <h1 class='text-sub'>Спорт<br />Отдых</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+					              	 	   <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/40.png'  /> 
+			                                    <h1 class='text-sub'>Продукты <br />питания</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	   </div>          
+
+					              	 	   <div class='col-sm-3 item_lev2'>                    
+						                          <div class='sub-item1 sub user-bg-red1'>
+			                                 <div class='icon-sub-box '>
+			                                   <img class='img-fluid icon-sub' src='img/iconki/img/83.png'  /> 
+			                                    <h1 class='text-sub'>Животные</h1>
+			                                 </div>
+			                                </div>                    
+						              	 	</div> 
+
+						              	 	  
+						              	 	  </div><!-- row --> 
+
+                        </div><!-- col-sm-12  -->
+                        </div><!-- row --> 
+                       </div><!-- col-sm-11 container_menu -->
+                      
+
+
+ 
+
+
+                              <!--HIDE -->
+ <!--cont_sub_menu--> 
+              
+            <div class='col-sm-11 col_container_sub_menu user-rgba-white-8'> 
+              	 <div class='row no-gutters'>
+
+              	 	   <div class='col-sm-3 '>
+                         <div class=" menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/dress.png" class=" img-fluid   img_menu" width='70%' alt="..." >
+													</div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Детская одежда</h1></a>	
+													  </div>
+												 </div>
+              	 	   </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/tapki1.jpeg" class=" img-fluid  img_menu" width='70%' alt="..." >
+													</div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Детская обувь</h1></a>	
+													  </div>
+												 </div>
+              	 	   </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	      <div class=" menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/kepka1.jpg" class=" img-fluid   img_menu" width='70%' alt="..." >
+													  </div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Детские головные уборы</h1></a>	
+													  </div>
+												 </div>
+              	 	   </div>
+              	 	   <div class='col-sm-3'>
+              	 	      <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/acsessuar.jpg" class=" img-fluid   img_menu" width='70%' alt="..." > 
+													  </div>
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Детские аксессуары</h1></a>	
+													  </div>
+												 </div>
+              	 	   </div>
+
+              	 </div>
+
+              	  <div class='row no-gutters'>
+
+              	 	   <div class='col-sm-3'>
+              	 	        <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/toys3.png" class=" img-fluid  img_menu" width='70%' alt="..." > 
+													</div>
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Детские игрушки</h1></a>	
+													  </div>
+												  </div> 
+              	 	   </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/baby_book1.jpg" class=" img-fluid  img_menu" width='70%' alt="..." > 
+													  </div>
+													  <div class="d_title">												 
+													    <a class='link_title' href='#'> <h1 class="u_title">Детская литература</h1></a>	
+													  </div>
+												  </div> 
+              	 	   </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	        <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/ris.jpg" class=" img-fluid  img_menu" width='70%' alt="..." >
+													 </div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Игры и творчество</h1></a>	
+													  </div>
+												  </div> 
+              	 	   </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/kol7.jpg" class=" img-fluid  img_menu" width='70%' alt="..." >
+													</div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Прогулки и поездки</h1></a>	
+													  </div>
+												  </div> 
+              	 	   </div>
+              	 	   </div>
+
+              	 	<div class='row no-gutters'>
+
+              	 	   <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/det_room1.jpg" class=" img-fluid  img_menu" width='70%' alt="..." >
+													</div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Детская комната</h1></a>	
+													  </div>
+												  </div> 
+              	     </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	        <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/dettransp.png" class=" img-fluid  img_menu" width='60%' alt="..." >
+													</div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Детский транспорт</h1></a>	
+													  </div>
+												  </div> 
+              	     </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/korm1.jpg" class=" img-fluid  img_menu" width='70%' alt="..." >
+													</div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Для кормления ребенка</h1></a>	
+													  </div>
+												  </div> 
+              	 	   </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/uhod.png" class=" img-fluid  img_menu" width='70%' alt="..." >
+													 </div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Уход и гигиена</h1></a>	
+													  </div>
+												  </div> 
+              	 	   </div>              	 	   
+              	 </div>
+
+              	 <div class='row no-gutters'>
+              	    <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/mam.jpg" class=" img-fluid  img_menu" width='70%' alt="..." >
+													</div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Все для мам</h1></a>	
+													  </div>
+												  </div> 
+              	     </div>
+
+              	 	   <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													  <img src="img/scool1.png" class=" img-fluid  img_menu" width='70%' alt="..." >
+													 </div> 
+													  <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title">Товары для школьников</h1></a>	
+													  </div>
+												  </div> 
+              	     </div>
+
+              	 	  <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>
+													 <div class="d_title">
+													    <a class='link_title' href='#'> <h1 class="u_title other">Другое</h1></a>	
+													  </div>
+													 </div>													  
+												  </div> 
+              	     </div>
+
+
+              	 	    <div class='col-sm-3'>
+              	 	       <div class="menu_box" >
+              	 	        <div class='menu_img_box '>													
+													 </div> 
+													  <div class="d_title">													  
+													  </div>
+												  </div>
+												 </div>
+
+              	 </div>
+               </div><!--конец вложеный скрытый col-sm-12 container_sub_menu-->
+
+			  </div><!-- row снаружи col-sm-12 container_menu-->
+			</div><!--col-sm-6 col_center_left-->
+
+
+  <!--************объявления*************--> 
+
+              <div class='col-sm-6 col_center_right'>
+              <div class='row no-gutters'>
+
+						              <div class='col-sm-12 col_container_adv '> 
+						                  <div class='row no-gutters'>
+
+						              	 	   <div class='col-sm-4'>
+						              	 	   	<div class="u_margin  adv_box " >
+									              	 	   <div class='adv_img_box '>
+																						  <img src="img/adv/panamki3.png" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			        <a class='adv_link_title' href='#'><h1>Панамка для девочки</h1></a>
+																			    </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>150 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+						                     <div class='col-sm-4'>
+						              	 	   	<div class="u_margin  adv_box user-rgba-black-9" >
+									              	 	   <div class='adv_img_box '>
+																						  <img src="img/adv/t1.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Мягкие игрушки</h1></a>
+																			    </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>120 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+
+						              	 	   <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 		'>
+																						  <img src="img/adv/t2.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  	
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Детские коляски</h1></a>
+																			     </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>1800 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+						             </div>
+
+						             <div class='row no-gutters'>
+						                     <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/5.jpeg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Новые блокноты</h1></a>
+																			    </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>25 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+						                     <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/6.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Туалетная вода</h1></a>
+																			     </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>25 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+
+						              	 	   <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/7.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Продам цветы</h1></a>
+																			     </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>30 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+						             </div>
+						                
+						             <div class='row no-gutters'>
+						                     <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/5.jpeg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Новые блокноты</h1></a>
+																			    </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>25 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+						                     <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/6.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Туалетная вода</h1></a>
+																			     </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>25 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+
+						              	 	   <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/7.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Продам цветы</h1></a>
+																			     </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>30 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+						             </div>
+						              	
+						             <div class='row no-gutters'>
+						                     <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/5.jpeg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Новые блокноты</h1></a>
+																			    </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>25 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+						                     <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box 	'>
+																						  <img src="img/adv/6.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Туалетная вода</h1></a>
+																			     </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>25 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+
+						              	 	   <div class='col-sm-4'>
+						              	 	   	<div class="u_margin 	 adv_box user-rgba-black-9" >
+						              	 	   	 <div class='adv_img_box	'>
+																						  <img src="img/adv/7.jpg" class=" img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			    <a class='adv_link_title' href='#'> <h1>Продам цветы</h1></a>
+																			     </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>30 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+						                  </div>
+						              </div><!--col-sm-12 col_container_adv-->
+
+
+                         <!--HIDE MAP-->
+                         <div class='col-sm-12 col_container_map user-rgba-white-8'> 
+						              
+                                          <img src="img/map2.png" class="img-fluid img_big_map" width='80%'  alt="..." >
+                           
+	                       </div><!--col-sm-12 col_container_map-->
+                        <!--конец HIDE MAP-->
+
+
+                        <!--HIDE PAGE_ADV-->
+                         <div class='col-sm-12 col_page_adv user-rgba-white-8'> 
+						               <div class='row no-gutters'>
+
+						                       <div class='col-sm-4 img_page'>
+						              	 	   	<div class="u_margin  adv_box " >
+									              	 	   <div class='adv_img_box '>
+																						  <img src="img/adv/panamki3.png" class="img-fluid " alt="..." > 
+																				</div>		  
+																			  <div class="adv ">
+																			    <div class='adv_title '>
+																			        <a class='adv_link_title' href='#'><h1>Панамка для девочки</h1></a>
+																			    </div>
+																			        <div class='adv_data'>10.07.19</div>
+						                              <div class='adv_box_price_zvezda'>
+																			         <div class='adv_price '>150 грн</div>	
+																			         <img class="img-fluid zvezda " src="img/adv/zvezda.png"  alt="..." >
+																			    </div>  
+																			   </div>
+																	 </div> 
+						              	 	    </div>
+
+                                  <div class='col-sm-7 page'>
+                                        <h3>Страница объявления</h3>
+                                  </div>
+                                   <div class='col-sm-1'>
+                                    <img class="img-fluid img_close" src="img/icon_close_black.png"  alt="..." >
+                                 
+                                  </div>
+
+						                          
+						               </div>
+                                      
+	                       </div><!--col-sm-12 col_container_map-->
+                        <!--конец HIDE PAGE_ADV-->
+
+
+             </div><!--row-->
+	            </div>    <!--col-sm-6 col_center_right-->
+
+	   </div><!-- row_center-->
+	</div><!-- container-fluid main_container-->
+
+
+
+<!--*******************************************************************-->
+<!---->
+<!---->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+ <!--Плагин  OverlayScrollbars--> 
+<script  type = "text/javascript"  src = "plagins/scroll-bar/OverlayScrollbars.js"></script>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/jquery-ui.min.js"></script>	
+
+	<script src="js/index6.js"></script>
+
+	<script src="js/test_fon.js"></script>
+	<script src="js/test_menu_color.js"></script>
+
+
+
+<!--*******КАК ВЫКЛЮЧИТЬ ФАЙЛ С КОДОМ ЗАМЕНЫ ФОНА****************************-->
+
+<!--Если надо выключить файл test_fon.js-сделай так(см.ниже)-->
+<!--<script src="js/test_fon.js"></script>-->
+
+
+<!--*******КАК ВЫКЛЮЧИТЬ ФАЙЛ С КОДОМ ЗАМЕНЫ ЦВЕТА МЕНЮ****************************-->
+
+<!--Если надо выключить файл test_fon.js-сделай так(см.ниже)-->
+<!--<script src="js/test_menu_color.js"></script>-->
+
+<!--*************ФОН СТРАНИЦЫ-ПРОСТО ЗАЛИВКА КАКИМ-ТО ЦВЕТОМ*************-->
+<!--
+Чтобы  фоном страницы сделать не изображение,а просто какой-то цвет надо:
+1. Выключить файл test_fon.js
+2. В файле  css/v6.css  найти раздел  - body, html - и туда вписать цвет фона(см там закоментированный пример)
+-->
+<!--***********************************-->
+
+<!--Иконки для меню рисовала здесь:https://flaticons.net/-->
+<!--***********************************-->
+
+</body>
+</html>
